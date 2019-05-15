@@ -115,7 +115,7 @@ ts-jumper input[type="text"],
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar)
 {
   background: var(--background) !important;
-  border-color: var(--border-dim);
+  /*border-color: var(--border-dim);*/
 }
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
     background: var(--background);
@@ -132,7 +132,7 @@ ts-jumper input[type="text"],
     color: var(--text);
 }
 .c-message_list__day_divider__line {
-    border-top: 1px solid var(--border-dim);
+    /*border-top: 1px solid var(--border-dim);*/
 }
 
 .c-message__body {
@@ -149,7 +149,7 @@ ts-jumper input[type="text"],
 }
 .c-message_group {
     background-color: unset;
-    border: 1px solid var(--border-dim);
+    /*border: 1px solid var(--border-dim);*/
 }
 .c-message_group:hover {
     border-color: var(--border-dim);
@@ -163,7 +163,6 @@ ts-jumper input[type="text"],
 .c-message_attachment__border[style="background-color: rgb(208, 208, 208)"], .c-message_attachment__border:not([style]) {
 	background-color: var(--background-elevated) !important;
 }
-
 
 .c-member_slug--link {
     background: var(--background-elevated);

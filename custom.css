@@ -184,6 +184,7 @@ ts-jumper input[type="text"],
 }
 
 /* channel list */
+/*
 .p-channel_sidebar__channel,
 .p-channel_sidebar__link {
   border-radius: 0 15px 15px 0;
@@ -225,7 +226,6 @@ ts-jumper input[type="text"],
    border-width: 1px 1px 1px 0;
 }
 
-/*broken*/
 li.active[class] span,
 #channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action .prefix,
 #channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action,
@@ -235,7 +235,6 @@ li.active[class] span,
    opacity: 1;
 }
 
-/*"more unreads" bottom*/
 .p-channel_sidebar__banner--top {
    background-color: var(--background);
    border: 1px solid var(--border-bright);
@@ -243,7 +242,6 @@ li.active[class] span,
    border-radius: 0 0 15px 15px;
 }
 
-/*"more unreads" bottom */
 .p-channel_sidebar__banner--bottom {
    background-color: var(--background);
    border: 1px solid var(--border-bright);
@@ -251,21 +249,17 @@ li.active[class] span,
    border-radius: 15px 15px 0 0;
 }
 
-/*"unread mentions"*/
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-   /*inverted because important*/
    background-color: var(--border-bright) !important;
    border-color: var(--text-bright);
    color: var(--text-bright);
 }
 
-/*also add border to unread count for individual channels*/
 .p-channel_sidebar__badge {
    border: 1px solid;
 }
 
-/* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
   background: var(--background-elevated);
   border: 1px solid var(--scrollbar-border);
@@ -276,6 +270,7 @@ li.active[class] span,
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.away i.presence_icon {
   color: inherit !important;
 }
+*/
 
 #client_body::before, #client_body:not(.onboarding):before {
   border-bottom: 1px solid var(--border-dim) !important;
@@ -1274,6 +1269,7 @@ ts-jumper ts-jumper-container {
     color: var(--text);
 }
 
+/*
 .sidebar_menu_list_item {
 	color: var(--text-bright);
 }
@@ -1281,6 +1277,7 @@ ts-jumper ts-jumper-container {
 .sidebar_menu_list_item:not(.is_active):hover {
     background-color: var(--background-elevated);
 }
+*/
 
 /* message action menu */
 .c-menu {
@@ -1710,9 +1707,11 @@ ts-jumper .p-jumper__help {
 }
 
 /* unread counter */
+/*
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name {
 	color: var(--primary) !important;
 }
+*/
 
 /* help modal */
 .p-help_modal__footer {

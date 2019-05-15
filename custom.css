@@ -16,10 +16,10 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #888;
-   --background: #111;
-   --background-elevated: #222;
+   --primary: #CCC;
+   --text: #999;
+   --background: #222;
+   --background-elevated: #444;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -61,10 +61,8 @@ hr {
    z-index: 1;
 }
 
-
 /* Channel selector */
-/*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
-/*nav.p-channel_sidebar {*/
+/*
 div.client_channels_list_container {
    background-color: var(--background-elevated) !important;
    box-shadow: var(--background-elevated) 1px 1px 25px;
@@ -94,7 +92,6 @@ body:not(.loading) #team_menu:active {
    color: var(--text) !important;
 }
 
-/* Channel with unread messages */
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
 .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name,
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
@@ -102,6 +99,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__quickswitcher:hover {
    color: var(--text-bright) !important;
 }
+*/
 
 /*broken*/
 __TODO-highlight-indicator {
@@ -407,7 +405,7 @@ ts-message .action_hover_container .btn_msg_action,
 .menu ul li a,
 .btn, .btn_outline, .menu {
   color: var(--text) !important;
-  border-color: border: 1px solid var(--border-dim) !important;
+  border: 1px solid var(--border-dim) !important;
 }
 
 .btn:hover:after {
